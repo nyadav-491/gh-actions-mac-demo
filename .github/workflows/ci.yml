@@ -12,7 +12,11 @@ jobs:
       matrix:
         os: [macos-latest]
         python-version: ["3.10", "3.11"]
-    steps:
+  
+  env:
+      PYTHONPATH: ${{ github.workspace }}   # repo root on sys.path
+  
+  steps:
       - uses: actions/checkout@v4
       - name: Set up Python
         uses: actions/setup-python@v5
