@@ -1,4 +1,4 @@
-# GitHub Actions CI Demo (macOS + Ubuntu)
+# GitHub Actions CI Demo (macOS)
 
 Minimal repo to demonstrate CI with GitHub Actions and pytest.
 
